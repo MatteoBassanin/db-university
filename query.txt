@@ -48,3 +48,4 @@ FROM `departments`;
 SELECT COUNT(*) AS 'insegnati senza numero di telefono'
 FROM `teachers` 
 WHERE `phone` IS NULL;
+
